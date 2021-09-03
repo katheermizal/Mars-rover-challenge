@@ -1,7 +1,56 @@
 ## How To Check
+
+step 1: Git clone or download zip folder
 ```
-git clone or download the zip folder
+git clone https://github.com/katheermizal/mars-rover-challenge.git
 ```
+step 2: Navigate to `mars-rover-challenge` folder
+```
+cd mars-rover-challenge
+```
+step 3: Open commandline and navigate into target folder
+step 4: Run the folowing command
+```
+python MarsRoverMain.py
+```
+step 5: then you have to choose, are you going use `command input` or `file input`. 
+Terminal will look like this
+```
+Are you using Command Line or File? Enter (C | command) or (F | file):
+```
+If you decided to go with command-line input, Enter (C | command) 
+```
+Are you using Command Line or File? Enter (C | command) or (F | file): C
+```
+or
+```
+Are you using Command Line or File? Enter (C | command) or (F | file): command
+```
+If you decided to go with file input, Enter (F | file)
+```
+Are you using Command Line or File? Enter (C | command) or (F | file): F
+```
+or
+```
+Are you using Command Line or File? Enter (C | command) or (F | file): file
+```
+step 6: In commands input you have to provide the following details
+```
+Deploy rovers count: 2
+Plateau:5 5
+Rover1 Landing:1 2 N
+Rover1 Instructions:LMLMLMLMM
+Rover2 Landing:3 3 E
+Rover2 Instructions:MMRMMRMRRM
+```
+step 7: Ouput for input commands
+
+![](asset/mars-rover-output-commandline.png)
+
+step 8: Ouput for input file
+
+![](asset/mars-rover-output-file.png)
+
 
 ## Mars Rover Task
 
